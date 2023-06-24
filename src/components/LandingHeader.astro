@@ -36,7 +36,7 @@ import Logo from "./Logo.astro";
       left-[var(--left)] top-[var(--top)]
       w-[var(--width)] h-[var(--height)]
       transition-all duration-300
-      ease-in-out
+      ease-in-out hidden opacity-0
   `}>  
   </div>
 </header>
@@ -53,7 +53,10 @@ import Logo from "./Logo.astro";
       menuBackDrop.style.setProperty("--top", `${top}px`)
       menuBackDrop.style.setProperty("--width", `${width}px`)
       menuBackDrop.style.setProperty("--height", `${height}px`)
+      menuBackDrop.style.opacity = "1"
+      menuBackDrop.style.visibility = "visible"
     })
+
   })
 
 
