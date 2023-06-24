@@ -28,3 +28,11 @@ import Logo from "./Logo.astro";
     </ul>
   </nav>
 </header>
+
+<script>
+  const observerOptions = {
+    root: null, // Defaults to the viewport. We can use it for a concret element, such as -> root: cardElement to know when inside this card is viewed some thing.
+    rootMargin: "0px", // As soon as the element is seen
+    threshold: 0.90 // The percentage of visibility. What percentage of visibility do we want that element to have in order to detect it?
+  }
+</script>
