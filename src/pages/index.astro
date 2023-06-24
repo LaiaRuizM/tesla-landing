@@ -1,4 +1,5 @@
 ---
+import HeroSection from '../components/HeroSection.astro';
 import LandingHeader from '../components/LandingHeader.astro';
 import Layout from '../layouts/Layout.astro';
 ---
@@ -6,22 +7,7 @@ import Layout from '../layouts/Layout.astro';
 <Layout title="Tesla - El coche de tus sueños (y de Elon Musk).">
 	<main>
 		<LandingHeader/>
-		<section class="bg-black h-screen w-screen text-center overflow-hidden relative">
-			<div class="z-30 relative h-full flex flex-col">
-				<header>
-					<h2 class="text-white pt-40 text-[40px] font-medium">Disfrute de Tesla</h2>
-					<p class="text-white text-sm">Programe una prueba de conducción hoy mismo</p>
-				</header>
-				<footer class="flex flex-col flex-grow justify-end pb-20">
-					<div>
-						<a class="border-[3px] border-white bg-white/5 backdrop-blur-sm text-sm rounded font-medium text-white px-12 py-2 inline-block hover:bg-white hover:text-black transition-colors" href="#">Prueba de conducción</a>
-					</div>
-				</footer>
-			</div>
-			<div class="absolute top-0 bottom-0 h-full w-full z-10">
-				<video class="object-center object-cover h-full w-full" autoplay muted loop src="/video.webm"></video>
-			</div>
-		</section>
+		<HeroSection/>
 	</main>
 </Layout>
 
