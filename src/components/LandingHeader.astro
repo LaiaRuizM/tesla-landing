@@ -36,7 +36,7 @@ import Logo from "./Logo.astro";
       left-[var(--left)] top-[var(--top)]
       w-[var(--width)] h-[var(--height)]
       transition-all duration-300
-      ease-in-out hidden opacity-0
+      ease-in-out opacity-0 -z-10
   `}>  
   </div>
 </header>
@@ -46,14 +46,15 @@ import Logo from "./Logo.astro";
   const menuBackDrop = document.querySelector("#menu-backdrop") as HTMLElement
 
   listItem.forEach((item) => {
-    item.addEventListener("mouseenter", ({target}) => {
+    item.addEventListener("mouseenter", () => {
       const { left, top, width, height } = item.getBoundingClientRect()
+      const { clientHeight, clientWidth } = item
 
       menuBackDrop.style.setProperty("--left", `${left}px`)
       menuBackDrop.style.setProperty("--top", `${top}px`)
       menuBackDrop.style.setProperty("--width", `${width}px`)
       menuBackDrop.style.setProperty("--height", `${height}px`)
-      
+
       menuBackDrop.style.opacity = "1"
       menuBackDrop.style.visibility = "visible"
     })
