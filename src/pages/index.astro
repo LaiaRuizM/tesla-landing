@@ -5,13 +5,24 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Tesla - El coche de tus sueños (y de Elon Musk).">
-	<main>
-		<LandingHeader/>
-		<HeroSection/>
-		<HeroSection/>
-		<HeroSection/>
-		<HeroSection/>
-		<HeroSection/>
+	<LandingHeader/>
+
+	<main class="snap-y snap-mandatory relative w-full h-screen overflow-auto">
+		<div class="snap-center">
+			<HeroSection/>
+		</div>
+		<div class="snap-center">
+			<HeroSection/>
+		</div>
+		<div class="snap-center">
+			<HeroSection/>
+		</div>
+		<div class="snap-center">
+			<HeroSection/>
+		</div>
+		<div class="snap-center">
+			<HeroSection/>
+		</div>
 	</main>
 </Layout>
 
