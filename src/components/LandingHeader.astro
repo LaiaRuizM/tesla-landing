@@ -53,8 +53,14 @@ import Logo from "./Logo.astro";
       menuBackDrop.style.setProperty("--top", `${top}px`)
       menuBackDrop.style.setProperty("--width", `${width}px`)
       menuBackDrop.style.setProperty("--height", `${height}px`)
+      
       menuBackDrop.style.opacity = "1"
       menuBackDrop.style.visibility = "visible"
+    })
+
+    item.addEventListener("mouseleave", () => {
+      menuBackDrop.style.opacity = "0"
+      menuBackDrop.style.visibility = "hidden"
     })
 
   })
