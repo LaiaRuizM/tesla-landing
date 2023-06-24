@@ -31,7 +31,7 @@ import Logo from "./Logo.astro";
 </header>
 
 <script>
-  const $header = document.querySelector("#landing-header") as HTMLElement
+  const headerElement = document.querySelector("#landing-header") as HTMLElement
   const observerOptions = {
     root: null, // Defaults to the viewport. We can use it for a concret element, such as -> root: cardElement to know when inside this card is viewed some thing.
     rootMargin: "0px", // As soon as the element is seen
@@ -43,8 +43,11 @@ import Logo from "./Logo.astro";
       const { isIntersecting } = entry
       if (isIntersecting) {
         const color = entry.target.getAttribute("data-header-color")
-        $header.style.color = color
+        headerElement.style.color = color
       }
     })
   }, observerOptions)
+
+  const sectionsElements = document.querySelectorAll(".landing-section")
+  sectionsElements.forEach((section) => observer.observe(section))
 </script>
