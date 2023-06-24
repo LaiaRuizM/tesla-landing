@@ -38,13 +38,13 @@ import Logo from "./Logo.astro";
     threshold: 0.90 // The percentage of visibility. What percentage of visibility do we want that element to have in order to detect it?
   }
 
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
       const { isIntersecting } = entry
       if (isIntersecting) {
         const color = entry.target.getAttribute("data-header-color")
         $header.style.color = color
       }
     })
-  })
+  }, observerOptions)
 </script>
