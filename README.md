@@ -18,13 +18,10 @@
 
 ## -- Screenshots --
 
-<!-- <p align="center" style="margin-center:8%"> -->
-
-<video
-src="./src/imagesVideos/website.mov">
-</video>
-
-<!-- </p> -->
+<p align="center" style="margin-center:8%">
+<video src="./src/imagesVideos/website.mov"></video>
+![GIF de ejemplo](./src/imagesVideos/website.gif)
+</p>
 
 ## -- Table of contents --
 
