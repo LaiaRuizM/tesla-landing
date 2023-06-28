@@ -19,8 +19,8 @@
 ## -- Screenshots --
 
 <p align="center" style="margin-center:8%">
-<video src="./src/imagesVideos/website.mov"></video>
-![GIF de ejemplo](./src/imagesVideos/website.gif)
+<!-- <video src="./src/imagesVideos/website.mov"></video> -->
+[Website] (./src/imagesVideos/website.gif)
 </p>
 
 ## -- Table of contents --
