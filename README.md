@@ -19,7 +19,7 @@
 ## -- Screenshots --
 
 <p align="center" style="margin-center:8%">
-<img src="./src/images/website.mov" alt="Landing of Tesla"/></p>
+<img src="./src/imagesVideos/website.mov" alt="Landing of Tesla"/></p>
 
 ## -- Table of contents --
 
@@ -49,7 +49,7 @@
 ### Landing
 
 <p align="center" style="margin-center:8%">
-<img src="./src/images/landing.png" alt="Diagram"/>
+<img src="./src/imagesVideos/landing.png" alt="Landing"/>
 </p>
 
 ### Built with
