@@ -19,7 +19,13 @@
 ## -- Screenshots --
 
 <p align="center" style="margin-center:8%">
-<img src="./src/imagesVideos/website.mov" alt="Landing of Tesla"/></p>
+<video
+autoplay
+muted
+loop
+src="./src/imagesVideos/website.mov">
+</video>
+</p>
 
 ## -- Table of contents --
 
