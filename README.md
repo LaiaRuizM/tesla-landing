@@ -18,14 +18,13 @@
 
 ## -- Screenshots --
 
-<p align="center" style="margin-center:8%">
+<!-- <p align="center" style="margin-center:8%"> -->
+
 <video
-autoplay
-muted
-loop
 src="./src/imagesVideos/website.mov">
 </video>
-</p>
+
+<!-- </p> -->
 
 ## -- Table of contents --
 
