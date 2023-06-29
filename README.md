@@ -18,9 +18,10 @@
 
 ## -- Website video --
 
-<p align="center" style="margin-center:8%">
-<!-- <video src="./src/imagesVideos/website.mov"></video> -->
-[![Landing](landing.png)](website.mov)
+<p align="center">
+<a href="https://www.youtube.com/watch?v=3hqxZzgb0OA" target="blank" style='margin-center:8%'>
+<img align="center" src="./src/images/landing.png" alt="Tesla landing" height="28px" width="28px" />
+</a>
 </p>
 
 ## -- Table of contents --
@@ -29,7 +30,7 @@
   - [Links](#links)
   - [Further implementations](#further-implementations)
 - [Project's process](#projects-process)
-  - [Landing](#landing)
+  <!-- - [Landing - organization](#landing - organization) -->
   - [Built with programming languages & tools 🛠️](#built-with)
   - [Setup for getting started](#setup)
   - [Challenges I have faced 🤖](#challenges)
@@ -48,11 +49,11 @@
 
 ## Project's process
 
-### Landing
+<!-- ### Landing - organization
 
 <p align="center" style="margin-center:8%">
-<img src="./src/imagesVideos/landing.png" alt="Landing"/>
-</p>
+<img src="./src/images/landing.png" alt="Landing"/>
+</p> -->
 
 ### Built with
 
