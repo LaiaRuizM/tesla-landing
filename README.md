@@ -16,11 +16,11 @@
   Welcome to a project where I have had the fortune of facing new challenges and learning the Astro and Tailwind frameworks.
   Welcome on board!
 
-## -- Screenshots --
+## -- Website video --
 
 <p align="center" style="margin-center:8%">
 <!-- <video src="./src/imagesVideos/website.mov"></video> -->
-[Website] (./src/imagesVideos/website.gif)
+[![Landing](landing.png)](website.mov)
 </p>
 
 ## -- Table of contents --
