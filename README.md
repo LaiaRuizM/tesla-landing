@@ -18,9 +18,9 @@
 
 ## -- Website video --
 
-<p align="center">
-<a href="https://www.youtube.com/watch?v=3hqxZzgb0OA" target="blank" style='margin-center:8%'>
-<img align="center" src="./src/images/landing.png" alt="Tesla landing" height="28px" width="28px" />
+<p align="center" style='margin-center:8%'>
+<a href="https://www.youtube.com/watch?v=3hqxZzgb0OA" target="blank" >
+<img align="center" src="./src/images/landing.png" alt="Tesla landing" width="280" />
 </a>
 </p>
 
