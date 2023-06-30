@@ -19,9 +19,9 @@
 ## -- Website video --
 
 - Press this image to watch the landing's video publish on Youtube:
-<p align="center" style='margin-center:15%'>
-<a href="https://www.youtube.com/watch?v=3hqxZzgb0OA" target="blank" >
-<img align="center" src="./src/images/landing.png" alt="Tesla landing" width="280" />
+<p align="center" style='margin-center:8%'>
+<a href="https://youtu.be/4SpMjP4_Ne0" target="blank" >
+<img align="center" src="./src/images/landing.png" alt="Tesla landing" width="480" />
 </a>
 </p>
 
